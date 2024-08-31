@@ -643,7 +643,7 @@ body {
 .map {
   width: 100%;
   height: 280px;
-  background-image: url("C:/Users/HP-PC/Dodgers/src/media/map.png");
+  background-image: url("./media/map.png");
   background-size: cover;
   border-radius: 15px;
 }
