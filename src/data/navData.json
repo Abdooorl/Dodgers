@@ -1,0 +1,34 @@
+{
+    "navigation": [
+        {
+            "icon": "ph ph-squares-four icon-20",
+            "tag": "Dashboard"
+        },
+        {
+            "icon": "ph ph-briefcase icon-20 title",
+            "tag": "Task"
+        },
+        {
+            "icon": "ph ph-calendar-dots icon-20 title",
+            "tag": "Calendar"
+        },
+        {
+            "icon": "ph ph-files icon-20 title",
+            "tag": "Schedule"
+        },
+        {
+            "icon": "ph ph-file-doc icon-20 title",
+            "tag": "Files"
+        },
+        {
+            "icon": "ph ph-plugs icon-20 title",
+            "tag": "Integration"
+        },
+        {
+            "icon": "ph ph-robot icon-20 title",
+            "tag": "Automation"
+        }
+    ]
+    
+}
+
