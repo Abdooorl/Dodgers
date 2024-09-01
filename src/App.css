@@ -256,6 +256,13 @@ body {
   bottom: 2rem;
 }
 
+.side-bar-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
 .icon-grey {
   color: var(--f-grey-three);
 }
@@ -286,6 +293,10 @@ body {
 .title {
   color: var(--f-grey-three);
   transition: color .1s ease-in-out .1s;
+}
+
+.profile-down {
+  width: 100%;
 }
 
 .profile {
@@ -658,6 +669,76 @@ body {
   background-color: rgba(0,0,0,0.05);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+}
+
+
+
+@media screen and (max-width: 530px) {
+  :root {
+    --fs-12: 0.75rem;
+    --fs-14: 0.875rem;
+    --fs-16: 0.875rem;
+    --fs-18: 1rem;
+    --fs-20: 1.125rem;
+    --fs-28: 1.5rem;
+    --fs-72: 4.5rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .App {
+    display: block;
+  }
+
+  .main-container {
+    width: 100%;
+    left: 0;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .btn-section {
+    display: none;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+  }
+
+  .info-style {
+    width: 50%;
+  }
+
+  .left-element {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .icon-18 {
+    font-size: 16px;
+  }
+  
+  .icon-24 {
+    font-size: 20px;
+  }
+  
+  .icon-20 {
+    font-size: 18px;
+  }
+
+  .schedule-container {
+    margin-top: 1rem;
+  }
+
+  .circles {
+    display: flex;
+    flex-direction: row;
+    gap: 0.65rem;
+  }
 }
 
 

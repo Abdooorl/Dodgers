@@ -80,6 +80,8 @@ const Info = () => {
                     </div>
                 </div>
 
+               
+
 
                 <div className="map-container">
                     <div className="map">

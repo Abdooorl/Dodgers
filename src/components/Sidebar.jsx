@@ -55,18 +55,24 @@ function Sidebar({data}) {
                     }
                     </div>
                 </div>
-            </div>
+                
 
+                
+            </div>
+            <div className="profile-down">
                 <div className="profile">
-                    <div className="image-name">
-                        <img src={require('../media/ProfileImage.png')} alt="profile-image" className='profile-image' />
-                            <div className="name">
-                                <p className="full-name medium-14">Badamosi Abdullahi</p>
-                                <p className="email medium-12">badamosi@gmail.com</p>
-                            </div>
+                        <div className="image-name">
+                            <img src={require('../media/ProfileImage.png')} alt="profile-image" className='profile-image' />
+                                <div className="name">
+                                    <p className="full-name medium-14">Badamosi Abdullahi</p>
+                                    <p className="email medium-12">badamosi@gmail.com</p>
+                                </div>
+                        </div>
+                        <button id='btn' className='button pointer medium-12'>Sign-Out</button>
                     </div>
-                    <button id='btn' className='button pointer medium-12'>Sign-Out</button>
                 </div>
+
+                
 
         </div>
     )
